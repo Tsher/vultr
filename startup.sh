@@ -7,7 +7,7 @@ script="gitlab jsbin suchblog"
 apt-get install nginx -y
 
 # enter sites-available
-cd ../
+cd /etc/nginx/sites-available/
 for i in $script; do
         wget $spath$i
         ln -s "/etc/nginx/sites-available/$i" "/etc/nginx/sites-enabled/$i"
