@@ -13,4 +13,4 @@ for i in $script; do
         ln -s "/etc/nginx/sites-available/$i" "/etc/nginx/sites-enabled/$i"
 done
 rm /etc/nginx/sites-enabled/default
-service nginx start
+service nginx restart
