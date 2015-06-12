@@ -1,5 +1,5 @@
 upstream bndServer{
-        server  alichs.jios.org:8000;
+        server  alichs.jios.org:3000;
 }
 server{
         listen  80;
